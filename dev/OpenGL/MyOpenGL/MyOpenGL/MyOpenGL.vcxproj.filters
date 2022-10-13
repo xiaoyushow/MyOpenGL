@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{d7455eb0-9029-4d83-bc34-0999f33b9cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Texture">
+      <UniqueIdentifier>{ad192517-f5d4-4c6f-8380-1035b59098be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Vertex">
+      <UniqueIdentifier>{6fc7190d-4d4a-4264-9601-e9cc0c78ff51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\WindowsInit">
+      <UniqueIdentifier>{544dc6fd-4752-437c-8325-1f2dd325260b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyOpenGL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>源文件\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>源文件\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>源文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInit.h">
+      <Filter>源文件\WindowsInit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyOpenGL.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_core.glsl">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="fragment_core.glsl">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
